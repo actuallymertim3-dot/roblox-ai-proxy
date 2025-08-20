@@ -1,0 +1,6 @@
+{
+  "name": "roblox-ai-proxy", "version": "1.0.0", "description": "A secure proxy for Roblox to talk to Gemini API.", "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2", "@google/generative-ai": "^0.1.3", "cors": "^2.8.5" },
+  "engines": { "node": "16.x" }
+}
